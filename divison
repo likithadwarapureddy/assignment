@@ -1,0 +1,7 @@
+>> a=int(input('enter a value'))
+enter a value18
+>>> b=int(input('enter b value'))
+enter b value9
+>>> c=a/b
+>>> print(c)
+2.0
