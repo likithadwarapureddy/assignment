@@ -1,0 +1,8 @@
+>>> a=int(input('enter a value'))
+enter a value10
+>>> b=int(input('enter b value'))
+enter b value34
+>>> c=a+b
+>>> print(c)
+44
+>>>
