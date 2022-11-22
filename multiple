@@ -1,0 +1,7 @@
+>>> a=int(input('enter a value'))
+enter a value3
+>>> b=int(input('enter b value'))
+enter b value6
+>>> c=a*b
+>>> print(c)
+18
