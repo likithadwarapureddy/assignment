@@ -1,0 +1,24 @@
+>>> sno=int(input())
+12
+>>> name=input()
+likitha
+>>> gender=input()
+female
+>>> group=input()
+mccs-a
+>>> address=input()
+tuni
+>>> phno=int(input())
+9381277032
+>>> print('sno :',sno)
+sno : 12
+>>> print('name:',name)
+name: likitha
+>>> print('gender:',gender)
+gender: female
+>>> print('group:',group)
+group: mccs-a
+>>> print('address:',address)
+address: tuni
+>>> print('phno:',phno)
+phno: 9381277032
