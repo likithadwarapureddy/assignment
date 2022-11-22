@@ -1,0 +1,8 @@
+>>> p=int(input('principal amount'))
+principal amount1000
+>>> si=int(input('simple interest'))
+simple interest50
+>>> t=int(input('time'))
+time3
+>>> EMI=(p+si)/t*12
+>>> print('EMI :',EMI)
