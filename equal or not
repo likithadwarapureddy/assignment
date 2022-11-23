@@ -1,0 +1,7 @@
+a=40
+b=40
+if a==b:
+     print('equal')
+else:
+     print('not equal')
+equal
