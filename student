@@ -1,0 +1,21 @@
+>>> sno=int(input())
+12
+>>> name=input()
+likitha
+>>> group=input()
+mccs
+>>> s1=40
+>>> s2=30
+>>> s3=35
+>>> print('sno:',sno)
+sno: 12
+>>> print('name:',name)
+name: likitha
+>>> print('group:',group)
+group: mccs
+>>> if(s1>=35 and s2>=35 and s3>=35):
+...  print('pass')
+... else:
+...  print('fail')
+...
+fail
