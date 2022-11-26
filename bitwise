@@ -1,0 +1,17 @@
+>>> a=10
+>>> b=12
+>>> c=a&b
+>>> print(c)
+8
+>>> c=a|b
+>>> print(c)
+14
+>>> c=a<<b
+>>> print(c)
+40960
+>>> c=a>>b
+>>> print(c)
+0
+>>> c=a^b
+>>> print(c)
+6
