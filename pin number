@@ -1,0 +1,8 @@
+ x=2159
+ >>> if (pinnumber==2159):
+...  print("continue the transactions")
+... else:
+...  print("incorrect pinnumber")
+...  print("please try again")
+...
+continue the transactions
