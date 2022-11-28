@@ -1,0 +1,7 @@
+>>> balance=1000
+>>> amount=4000
+>>> d=balance+amount
+>>> print('credited amount',amount)
+credited amount 4000
+>>> print('main balance',d)
+main balance 5000
