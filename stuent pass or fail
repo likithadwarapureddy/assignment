@@ -1,0 +1,19 @@
+>>> sno=int(input())
+215930031
+>>> sname=input()
+likitha
+>>> group=input()
+mccs
+>>> s1=int(input())
+65
+>>> s2=int(input())
+75
+>>> s3=int(input())
+90
+>> if s1>=35:
+...  if s2>=35:
+...   if s3>=35:
+...    print('pass')
+... else:
+...  print('fail')
+...
