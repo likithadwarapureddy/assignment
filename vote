@@ -1,0 +1,19 @@
+def is_vote(n):
+   if n>=18:
+      return 'Yes'
+   else:
+      return 'No'
+n=int(input())
+print(is_vote(n))
+
+def vote(n):
+ if n>=18:
+  return True
+ else:
+  return False
+ n=int(input())
+ 20
+ if (vote(n)):
+  print('vote')
+ else:
+  print('no vote')
