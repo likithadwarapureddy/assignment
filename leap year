@@ -1,0 +1,23 @@
+def is_leap(year):
+      if year%4==0 and year%100!=0:
+               return 'Yes'
+      elif year%400==0:
+            return 'Yes'
+      else:
+         return 'No'
+year = int(input())
+print(is_leap(year))
+
+def leap(year):
+ if year%4==0 and year%100!=0:
+   return True
+ elif year%400==0:
+   return True
+  else:
+    return False
+  year=input()
+  if(leap(year):
+   print('leap year')
+  else:
+   print('non leap year')
+  
