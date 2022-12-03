@@ -1,0 +1,22 @@
+def is_big(a,b):
+    if a>b:
+        return 'a is big'
+    else:
+        return 'b is big'
+a=int(input())
+b=int(input())
+print(is_big(a,b)
+
+def big(a,b):
+ if a>b:
+  return True
+ else:
+  return False
+a=input()
+10
+b=input()
+30
+if (big(a,b)):
+ print('even')
+else:
+ print('odd')
