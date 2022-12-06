@@ -1,0 +1,14 @@
+n=int(input())
+num=int(input())
+largest=num
+i=1
+while(i<n):
+   num=int(input())
+   if(num>largest):
+      largest=num
+   else:
+       smallest=num
+   i=i+1
+m=largest-smallest
+print(m)
+  
