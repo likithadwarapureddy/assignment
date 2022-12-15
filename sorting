@@ -1,0 +1,21 @@
+n=int(input())
+5
+a=list(map(int,input().split()))
+                      
+48  78 9 1 2
+for i in range (0,n-1):
+        for j in range (i+1,n):
+                      if a[i]<a[j]:
+                         t=a[i]
+                         a[i]=a[j]
+                         a[j]=t
+
+                      
+print(a)
+                      
+[78, 48, 9, 2, 1]
+for i in range(n):
+                      print(a[i],end=' ')
+
+                     
+78 48 9 2 1
