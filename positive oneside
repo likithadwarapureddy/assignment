@@ -1,0 +1,10 @@
+n=int(input())
+ol=list(map(int,input().split()))
+nl=[]
+pl=[]
+for i in range(n):
+    if ol[i]>=0:
+       pl.append(ol[i])
+    else:
+       nl.append(ol[i])
+print(nl+pl)
