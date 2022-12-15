@@ -1,0 +1,14 @@
+n=int(input())
+6
+al=list(map(int,input().split()))
+324567
+el=[2]
+ol=[1]
+for i in range (0,n):
+    if al[i]%2==0:
+        el.append(al[i])
+    else:
+        ol.append(al[i])
+  l=el+ol
+  for i in l:
+  print(i,end='')
