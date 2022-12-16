@@ -1,0 +1,18 @@
+#a
+str=input('enter any string:')
+l=len(str)
+print(l)
+#b
+str=input('enter any string:')
+u=str.upper()
+print(u)
+#c
+str=input('enter any string:')
+l=str.lower()
+print(l)
+#d
+str=input('enter any string:')
+u=str.upper()
+l=str.lower()
+print(u)
+print(l)
