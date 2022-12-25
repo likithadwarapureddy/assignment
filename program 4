@@ -1,0 +1,20 @@
+l=[]
+n=int(input())
+5
+l=list(map(int,input().split()))
+1 
+l=list(map(int,input().split()))
+1 2 3 44 0
+max=l[0]
+min=l[0]
+for i in range (1,n):
+    if l[i]>max:
+        max=l[i]
+for i in range (1,n):
+    if l[i]<min:
+        min=l[i]
+        
+print(max)
+44
+print(min)
+0
