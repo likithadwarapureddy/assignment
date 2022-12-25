@@ -1,0 +1,7 @@
+l=[]
+n=int(input())
+for i in range(n):
+    x= int(input())
+    l.append(x)
+    sl=sorted(l)
+print(sl)
