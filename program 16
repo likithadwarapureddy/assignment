@@ -1,0 +1,6 @@
+l=[]
+n=int(input())
+for i in range(n):
+    x=int(input('enter a number'))
+    l.append(x)
+print(max(l)-min(l))
