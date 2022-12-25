@@ -1,0 +1,10 @@
+n=1
+f=0
+sum=0
+while i<=n:
+    if n%i==0:
+        f=f+1
+        i=i+1
+    if f==2:                  
+       sum=sum+i
+print(sum)
