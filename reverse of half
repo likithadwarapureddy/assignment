@@ -1,0 +1,18 @@
+n=int(input())
+y=(n+1)//2
+l=list(map(int,input().split()))
+o=[]
+for i in range(0,y):
+    x=l[i]
+    o.append(x)
+m=list(reversed(l))
+p=[]
+if n%2==0:
+     for i in range(0,y):
+          x=m[i]
+          p.append(x)
+else:
+    for i in range(0,y-1):
+          x=m[i]
+          p.append(x)
+print(o+p)
