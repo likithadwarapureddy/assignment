@@ -1,0 +1,32 @@
+def addnumber():
+    res=int(e1.get())+int(e2.get())
+    s.set(res)
+def subnumber():
+    res=int(e1.get())-int(e2.get())
+    s.set(res)
+def multinumber():
+    res=int(e1.get())*int (e2.get())
+    s.set(res)
+def divisionnumber():
+    res=int(e1.get())//int(e2.get())
+    s.set(res)
+master=tk()
+s=StringVar()
+Label(master,text='first').grid(row=0)
+Label(master,text='second').grid(row=1)
+Label(master,text='result').grid(row=3)
+result=Label(master,text='',textvariable=s).grid(row=3,col=1)
+e1=enter(master)
+e2=enter(master)
+e1.grid(row=0,col=1)
+e2.grid(row=1,col=1)
+b1=button (master,text='addition',
+commands=addnumber)
+b1.grid(row=4)
+b2=button(master,text='subtraction',commands=subnumber)
+b2.grid(row=5)
+b3=button (master,text='multiplication',commands=multinumber)
+b3.grid(row=6)
+b4=button(master,text='division',commands=divisionnumber)
+b4.grid(row=7)
+mainloop()
