@@ -1,0 +1,10 @@
+n=int(input())
+l=list(map(int,input().split())) 
+k=int(input())
+l.sort()
+b=l[-k:]
+for i in b:
+    print(i,end=' ')
+print(" ")
+print(max(b))
+print(min(b))
