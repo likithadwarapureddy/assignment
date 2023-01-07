@@ -1,0 +1,16 @@
+emailid=input()
+phno=input()
+if emailid.endswith("@gmail.com"):
+    if len(phno)==13:
+        if phno.startswith("0916") or phno.startswith("0917") or phno.startswith("0918") or phno.startswith("0919"):
+            if phno.isdigit(): 
+                  print("Regestration sucessfull...")
+                  
+            else:
+                  print("invalid phno")
+        else:
+               print("check your detais once again!!")
+    else:
+         print("check your details once again!!!")
+else:
+     print("check your details once again!!!")
