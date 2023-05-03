@@ -1,0 +1,8 @@
+l=list(map(int,input().split()))
+1 5 7 9 15
+r=max(l)
+print(r)
+15
+s=min(l)
+print(s)
+1
