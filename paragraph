@@ -1,0 +1,12 @@
+par=input()
+this is aditya degree college
+ch=input()
+e
+c=0
+for i in par:
+    if i==ch:
+        c=c+1
+
+        
+print(ch,c)
+e 5
