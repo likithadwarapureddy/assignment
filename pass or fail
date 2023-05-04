@@ -1,0 +1,28 @@
+d={}
+n=int(input())
+4
+for i in range(1,n+1):
+    name,result=input().split()
+    d[name]=result
+
+    
+ramu pass
+rani fail
+devi pass
+uma fail
+for i in range(1,n+1):
+    name=input()
+    if name in d:
+        print(name,d[name],'the exam')
+    else:
+        print('no result found')
+
+        
+ramu
+ramu pass the exam
+sita
+no result found
+devi
+devi pass the exam
+uma
+uma fail the exam
