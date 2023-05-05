@@ -1,0 +1,23 @@
+class Sample:
+    def fib(self,n):
+        if (n==0):
+            return 0
+        elif(n==1):
+           return 1
+        else:
+            return(fib(n-1)+fin(n-2))
+
+        
+n=int(input())
+5
+print('fibnocci series')
+fibnocci series
+for n in range(0,n):
+    print(n)
+
+    
+0
+1
+2
+3
+4
